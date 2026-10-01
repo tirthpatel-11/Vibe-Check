@@ -42,26 +42,27 @@ export const ALL_ROOMS = [
 ];
 
 export const SCHEDULE = {
+
   Mo: {
-    // Slot 1 (09:00 - 10:00)
+    // Slot 1 (09:00 - 10:00 AM)
     0: {
-      'CR 1': { course: 'CS 9117 / CS 743', batch: 'Sem 7 ECE Div 2 / Sem 7 CSE / MTech 1 CSE', faculty: 'PS' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'RDM / SRS' },
+      'CR 2': { course: 'CS 9117 / CS 743', batch: 'Sem 7 ECE Div 2 / Sem 7 CSE / MTech 1 CSE', faculty: 'PS' },
       'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 ECE A (Group 1)', faculty: 'ND' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'RDM / SRS' },
     },
-    // Slot 2 (10:00 - 11:00)
+    // Slot 2 (10:00 - 11:00 AM)
     1: {
       'CR 1': { course: 'CS 305', batch: 'Sem 3 CSE B', faculty: 'TG' },
-      'CR 2': { course: 'CS 753', batch: 'Sem 7 ECE', faculty: 'AT' },
+      'CR 2': { course: 'CS 753', batch: 'Sem 7 ECE', faculty: 'SKS / RP' },
       'CR 3': { course: 'CS 501', batch: 'Sem 5 CSE', faculty: 'SA' },
       'CR 4': { course: 'AS 102', batch: 'Sem 1 CSE C', faculty: 'PAS F1' },
       'CR 5': { course: 'MS 101', batch: 'Sem 1 CSE B', faculty: 'AP' },
       'CR 6': { course: 'CS 9116 / CS 742', batch: 'Sem 7 CSE Div 1 / MTech 1 CSE', faculty: 'PJM' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'RDM / SRS' },
-      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 ECE A (Group 1)', faculty: 'ND' },
       'CSE LAB 2': { course: 'EC 912', batch: 'MTech 1 ECE / MTech 1 DS&Comm', faculty: 'MR' },
+      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 ECE A (Group 1)', faculty: 'ND' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'RDM / SRS' },
     },
-    // Slot 3 (11:00 - 12:00)
+    // Slot 3 (11:00 AM - 12:00 PM)
     2: {
       'CR 1': { course: 'CS 304', batch: 'Sem 3 CSE B', faculty: 'RRP' },
       'CR 2': { course: 'CS 101', batch: 'Sem 1 CSE D', faculty: 'AD' },
@@ -69,27 +70,27 @@ export const SCHEDULE = {
       'CR 4': { course: 'HS 101', batch: 'Sem 1 CSE C', faculty: 'HSS F1' },
       'CR 5': { course: 'CS 913 / CS 702', batch: 'Sem 7 CSE / MTech 1 CSE', faculty: 'SA' },
       'CR 6': { course: 'AS 102', batch: 'Sem 1 ECE A', faculty: 'PAS F1' },
-      'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'DR / NB / PG25CS01' },
+      'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'NB / PG25CS02 / PG25CS11' },
       'CSE LAB 2': { course: 'CS 504', batch: 'Sem 5 ECE (Group 1)', faculty: 'SR / KD / PG25CS08' },
-      'CSE LAB 3': { course: 'CS 701', batch: 'Sem 7 ECE (Group 1)', faculty: 'RK / RS25CS02' },
+      'CSE LAB 3': { course: 'CS 701', batch: 'Sem 7 ECE (Group 1)', faculty: 'RK / RS25CS02 / PG25CS01' },
+      'ECE LAB 1': { course: 'EC 9111', batch: 'MTech 1 ECE / MTech 1 DS&Comm', faculty: 'HG' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'RP / TD' },
       'ECE LAB 3': { course: 'EC 501', batch: 'Sem 5 ECE (Group 2)', faculty: 'SM / SKS' },
-      'ECE LAB 1': { course: 'EC 9111', batch: 'MTech 1 ECE / MTech 1 DS&Comm', faculty: 'HG' },
     },
-    // Slot 4 (12:00 - 01:00)
+    // Slot 4 (12:00 - 01:00 PM)
     3: {
       'CR 1': { course: 'CS 302', batch: 'Sem 3 CSE A', faculty: 'DN' },
-      'CR 2': { course: 'AS 101', batch: 'Sem 1 CSE D', faculty: '2ND / KY / BP' },
+      'CR 2': { course: 'AS 101', batch: 'Sem 1 CSE D', faculty: 'ND / KY / BP' },
       'CR 3': { course: 'EC 303 / EC 9108', batch: 'Sem 3 ECE / MTech 1 DS&Comm', faculty: 'VAP' },
       'CR 4': { course: 'CS 514', batch: 'Sem 5 CSE', faculty: 'SRS' },
-      'CR 5': { course: 'CS 913 / CS 702', batch: 'Sem 7 CSE / MTech 1 CSE', faculty: 'SA' },
-      'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'DR / NB / PG25CS01' },
+      'CR 5': { course: 'CS 913 / CS 702', batch: 'Sem 7 CSE', faculty: 'SA' },
+      'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'NB / PG25CS02 / PG25CS11' },
       'CSE LAB 2': { course: 'CS 504', batch: 'Sem 5 ECE (Group 1)', faculty: 'SR / KD / PG25CS08' },
-      'CSE LAB 3': { course: 'CS 701', batch: 'Sem 7 ECE (Group 1)', faculty: 'RK / RS25CS02' },
+      'CSE LAB 3': { course: 'CS 701', batch: 'Sem 7 ECE (Group 1)', faculty: 'RK / RS25CS02 / PG25CS01' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'RP / TD' },
       'ECE LAB 3': { course: 'EC 501', batch: 'Sem 5 ECE (Group 2)', faculty: 'SM / SKS' },
     },
-    // Slot 5 (01:00 - 02:00)
+    // Slot 5 (01:00 - 02:00 PM)
     4: {
       'CR 1': { course: 'EC 911', batch: 'MTech 1 ECE', faculty: 'TD' },
       'CR 2': { course: 'CS 701', batch: 'Sem 7 ECE', faculty: 'RK' },
@@ -98,27 +99,27 @@ export const SCHEDULE = {
       'CR 6': { course: 'HS 101', batch: 'Sem 1 ECE A', faculty: 'HSS F1' },
       'CSE LAB 1': { course: 'CS 304', batch: 'Sem 3 CSE B (Group 2)', faculty: 'RRP / PG25CS03 / TG' },
       'CSE LAB 2': { course: 'CS 9116 / CS 742', batch: 'Sem 7 CSE (Group 1)', faculty: 'PJM / DN / PG25CS02' },
-      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 CSE B (Group 1)', faculty: 'RN / PG25CS07 / PG25CS06' },
+      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 CSE B (Group 1)', faculty: 'RN / PG25CS07' },
+      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'KY' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE C (Group 2)', faculty: 'DP / RDM' },
       'ECE LAB 3': { course: 'CS 911', batch: 'MTech 1 CSE', faculty: 'PS' },
-      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'KY' },
     },
-    // Slot 6 (02:00 - 03:00)
+    // Slot 6 (02:00 - 03:00 PM)
     5: {
       'CR 1': { course: 'HS 301', batch: 'Sem 3 CSE A', faculty: 'HSS F3' },
-      'CR 2': { course: 'MS 101', batch: 'Sem 1 CSE D', faculty: '2APS / VP / AP' },
+      'CR 2': { course: 'MS 101', batch: 'Sem 1 CSE D', faculty: 'APS / VP / AP' },
       'CR 3': { course: 'EC 302', batch: 'Sem 3 ECE', faculty: 'SKS' },
       'CR 4': { course: 'HM 505', batch: 'Sem 5 ECE', faculty: 'HSS F2' },
       'CR 5': { course: 'EC 102', batch: 'Sem 1 CSE B', faculty: 'NA' },
       'CR 6': { course: 'CS 101', batch: 'Sem 1 ECE A', faculty: 'NB' },
       'CSE LAB 1': { course: 'CS 304', batch: 'Sem 3 CSE B (Group 2)', faculty: 'RRP / PG25CS03 / TG' },
       'CSE LAB 2': { course: 'CS 9116 / CS 742', batch: 'Sem 7 CSE (Group 1)', faculty: 'PJM / DN / PG25CS02' },
-      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 CSE B (Group 1)', faculty: 'RN / PG25CS07 / PG25CS06' },
+      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 CSE B (Group 1)', faculty: 'RN / PG25CS07' },
+      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'KY' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE C (Group 2)', faculty: 'DP / RDM' },
       'ECE LAB 3': { course: 'EC 912', batch: 'MTech 1 ECE / MTech 1 DS&Comm', faculty: 'SR' },
-      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'KY' },
     },
-    // Slot 7 (03:00 - 04:00)
+    // Slot 7 (03:00 - 04:00 PM)
     6: {
       'CR 1': { course: 'CS 305', batch: 'Sem 3 CSE A', faculty: 'TG' },
       'CR 2': { course: 'HM 505', batch: 'Sem 5 CSE', faculty: 'HSS F2' },
@@ -126,49 +127,51 @@ export const SCHEDULE = {
       'CR 4': { course: 'EC 501', batch: 'Sem 5 ECE', faculty: 'SM' },
       'CR 5': { course: 'AS 101', batch: 'Sem 1 CSE B', faculty: 'BP' },
       'CR 6': { course: 'CS 101', batch: 'Sem 1 CSE C', faculty: 'DR' },
-      'CSE LAB 3': { course: 'CS 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'PG25CS03 / PG25CS06 / AD' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'AT / HG' },
+      'CSE LAB 3': { course: 'CS 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'PG25CS03 / AD / PG25CS06' },
       'ECE LAB 1': { course: 'ECD 911', batch: 'MTech 1 DS&Comm', faculty: 'SVR' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'HG / NA' },
+      'ECE LAB 3': { course: 'CS 9106 / EC 761', batch: 'Sem 7 ECE / Sem 7 CSE / MTech 1 CSE', faculty: 'SRS / LC' },
     },
-    // Slot 8 (04:00 - 05:00)
+    // Slot 8 (04:00 - 05:00 PM)
     7: {
       'CR 1': { course: 'CS 301', batch: 'Sem 3 CSE A', faculty: 'PJM' },
       'CR 2': { course: 'HS 301', batch: 'Sem 3 ECE', faculty: 'HSS F3' },
       'CR 3': { course: 'CS 302', batch: 'Sem 3 CSE B', faculty: 'DN' },
       'CR 4': { course: 'CS 504', batch: 'Sem 5 ECE', faculty: 'KD' },
-      'CSE LAB 3': { course: 'CS 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'PG25CS03 / PG25CS06 / AD' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'AT / HG' },
+      'CSE LAB 3': { course: 'CS 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'PG25CS03 / AD / PG25CS06' },
       'ECE LAB 1': { course: 'ECD 911', batch: 'MTech 1 DS&Comm', faculty: 'SVR' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'HG / NA' },
+      'ECE LAB 3': { course: 'CS 9106 / EC 761', batch: 'Sem 7 ECE / Sem 7 CSE / MTech 1 CSE', faculty: 'SRS / LC' },
     },
-    // Slot 9 (05:00 - 06:00)
+    // Slot 9 (05:00 - 06:00 PM)
     8: {
       'CR 1': { course: 'CS 303', batch: 'Sem 3 CSE A', faculty: 'RN' },
     },
   },
 
   Tu: {
-    // Slot 1 (09:00 - 10:00)
+    // Slot 1 (09:00 - 10:00 AM)
     0: {
       'CR 2': { course: 'CS 9117 / CS 743', batch: 'Sem 7 ECE Div 2 / Sem 7 CSE / MTech 1 CSE', faculty: 'PS' },
       'CR 6': { course: 'MS 101', batch: 'Sem 1 ECE A', faculty: 'APS' },
       'ECE LAB 2': { course: 'EC 503', batch: 'Sem 5 ECE (Group 2)', faculty: 'HG / RP' },
       'ECE LAB 3': { course: 'EC 501', batch: 'Sem 5 ECE (Group 1)', faculty: 'SM / SKS' },
     },
-    // Slot 2 (10:00 - 11:00)
+    // Slot 2 (10:00 - 11:00 AM)
     1: {
-      'CR 2': { course: 'CS 701', batch: 'Sem 7 CSE', faculty: 'RK' },
+      'CR 1': { course: 'CS 701', batch: 'Sem 7 ECE', faculty: 'RK' },
       'CR 3': { course: 'CS 501', batch: 'Sem 5 CSE', faculty: 'SA' },
       'CR 4': { course: 'HS 101', batch: 'Sem 1 CSE C', faculty: 'HSS F1' },
       'CR 5': { course: 'MS 101', batch: 'Sem 1 CSE B', faculty: 'AP' },
       'CR 6': { course: 'AS 102', batch: 'Sem 1 ECE A', faculty: 'PAS F1' },
-      'CSE LAB 2': { course: 'CS 911', batch: 'MTech 1 CSE', faculty: 'PS / PG25CS04 / PG25CS02' },
+      'CSE LAB 2': { course: 'CS 911', batch: 'MTech 1 CSE', faculty: 'PS / PG25CS04' },
       'ECE LAB 2': { course: 'EC 503', batch: 'Sem 5 ECE (Group 2)', faculty: 'HG / RP' },
       'ECE LAB 3': { course: 'EC 501', batch: 'Sem 5 ECE (Group 1)', faculty: 'SM / SKS' },
     },
-    // Slot 3 (11:00 - 12:00)
+    // Slot 3 (11:00 AM - 12:00 PM)
     2: {
       'CR 1': { course: 'CS 303', batch: 'Sem 3 CSE A', faculty: 'RN' },
-      'CR 2': { course: 'EC 102', batch: 'Sem 1 CSE D', faculty: 'DP' },
+      'CR 2': { course: 'MS 101', batch: 'Sem 1 CSE D', faculty: 'AP' },
       'CR 3': { course: 'EC 301', batch: 'Sem 3 ECE', faculty: 'LC' },
       'CR 4': { course: 'AS 102', batch: 'Sem 1 CSE C', faculty: 'PAS F1' },
       'CR 5': { course: 'CS 913 / CS 702', batch: 'Sem 7 CSE / MTech 1 CSE', faculty: 'SA' },
@@ -176,50 +179,52 @@ export const SCHEDULE = {
       'CSE LAB 1': { course: 'CS 504', batch: 'Sem 5 CSE (Group 2)', faculty: 'SR / KD / PG25CS08' },
       'CSE LAB 2': { course: 'CS 9116 / CS 742', batch: 'Sem 7 ECE Div 1', faculty: 'PJM / PG25CS02 / TG' },
       'CSE LAB 3': { course: 'CS 501', batch: 'Sem 5 CSE (Group 1)', faculty: 'AD / PG25CS06' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'RP / AT' },
       'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'BP' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'TD / RDM' },
     },
-    // Slot 4 (12:00 - 01:00)
+    // Slot 4 (12:00 - 01:00 PM)
     3: {
       'CR 1': { course: 'CS 304', batch: 'Sem 3 CSE A', faculty: 'RRP' },
-      'CR 2': { course: 'MS 101', batch: 'Sem 1 CSE D', faculty: 'VP' },
+      'CR 2': { course: 'EC 102', batch: 'Sem 1 CSE D', faculty: 'DP' },
       'CR 3': { course: 'EC 303 / EC 9108', batch: 'Sem 3 ECE / MTech 1 DS&Comm', faculty: 'VAP' },
       'CR 4': { course: 'CS 302', batch: 'Sem 3 CSE B', faculty: 'DN' },
-      'CR 5': { course: 'CS 913 / CS 702 & EC 911', batch: 'Sem 7 CSE / MTech 1 CSE / MTech 1 ECE', faculty: 'SA / TD' },
+      'CR 5': { course: 'CS 701', batch: 'Sem 7 CSE', faculty: 'RK' },
       'CSE LAB 1': { course: 'CS 504', batch: 'Sem 5 CSE (Group 2)', faculty: 'SR / KD / PG25CS08' },
       'CSE LAB 2': { course: 'CS 9116 / CS 742', batch: 'Sem 7 ECE Div 1', faculty: 'PJM / PG25CS02 / TG' },
       'CSE LAB 3': { course: 'CS 501', batch: 'Sem 5 CSE (Group 1)', faculty: 'AD / PG25CS06' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'RP / AT' },
       'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'BP' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'TD / RDM' },
     },
-    // Slot 5 (01:00 - 02:00)
+    // Slot 5 (01:00 - 02:00 PM)
     4: {
       'CR 1': { course: 'EC 503', batch: 'Sem 5 ECE', faculty: 'HG' },
-      'CR 2': { course: 'CS 9116 / CS 742', batch: 'Sem 7 ECE / Sem 7 CSE / MTech 1 CSE', faculty: 'PJM' },
+      'CR 2': { course: 'CS 9116 / CS 742', batch: 'Sem 7 CSE Div 1 / MTech 1 CSE', faculty: 'PJM' },
       'CR 3': { course: 'ECD 911', batch: 'MTech 1 DS&Comm', faculty: 'SVR' },
       'CR 4': { course: 'CS 303', batch: 'Sem 3 CSE B', faculty: 'RN' },
+      'CR 5': { course: 'EC 702', batch: 'Sem 7 ECE', faculty: 'RP' },
       'CR 6': { course: 'MS 101', batch: 'Sem 1 ECE A', faculty: 'APS / VP / AP' },
       'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE C (Group 2)', faculty: 'DR / PG25CS07' },
-      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 ECE (Group 1)', faculty: 'PG25CS01 / PS' },
+      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 ECE (Group 1)', faculty: 'PG25CS01 / PS / PG25CS06' },
+      'ECE LAB 1': { course: 'EC 911', batch: 'MTech 1 ECE', faculty: 'TD' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'MR / LC' },
       'ECE LAB 3': { course: 'EC 303 / EC 9108', batch: 'Sem 3 ECE (Group 2)', faculty: 'SRS / VAP / PG25EC01' },
     },
-    // Slot 6 (02:00 - 03:00)
+    // Slot 6 (02:00 - 03:00 PM)
     5: {
       'CR 1': { course: 'EC 9103 / EC 502', batch: 'Sem 5 ECE / MTech 1 ECE', faculty: 'RDM' },
       'CR 2': { course: 'CS 302', batch: 'Sem 3 CSE A', faculty: 'DN' },
       'CR 3': { course: 'AS 101', batch: 'Sem 1 CSE D', faculty: 'ND / KY / BP' },
-      'CR 4': { course: 'EC 702', batch: 'Sem 7 ECE', faculty: 'RP' },
+      'CR 4': { course: 'CS 753', batch: 'Sem 7 CSE', faculty: 'RP / SKS' },
       'CR 5': { course: 'EC 102', batch: 'Sem 1 CSE B', faculty: 'NA' },
       'CR 6': { course: 'CS 101', batch: 'Sem 1 ECE A', faculty: 'NB' },
       'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE C (Group 2)', faculty: 'DR / PG25CS07' },
-      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 ECE (Group 1)', faculty: 'PG25CS01 / PS' },
+      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 ECE (Group 1)', faculty: 'PG25CS01 / PS / PG25CS06' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'MR / LC' },
       'ECE LAB 3': { course: 'EC 303 / EC 9108', batch: 'Sem 3 ECE (Group 2)', faculty: 'SRS / VAP / PG25EC01' },
     },
-    // Slot 7 (03:00 - 04:00)
+    // Slot 7 (03:00 - 04:00 PM)
     6: {
-      'CR 1': { course: 'CS 9106 / EC 761', batch: 'Sem 7 ECE Div 3 / Sem 7 CSE Div 3 / MTech 1 CSE', faculty: 'LC' },
+      'CR 2': { course: 'CS 9106 / EC 761', batch: 'Sem 7 ECE Div 3 / Sem 7 CSE Div 3 / MTech 1 CSE', faculty: 'LC' },
       'CR 3': { course: 'CS 514', batch: 'Sem 5 CSE', faculty: 'SRS' },
       'CR 4': { course: 'AS 101', batch: 'Sem 1 CSE C', faculty: 'KY' },
       'CR 5': { course: 'CS 101', batch: 'Sem 1 CSE B', faculty: 'DR' },
@@ -227,10 +232,10 @@ export const SCHEDULE = {
       'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'PG25CS03 / PG25CS06 / AD' },
       'CSE LAB 2': { course: 'CS 303', batch: 'Sem 3 CSE A (Group 2)', faculty: 'RN / PG25CS07' },
       'CSE LAB 3': { course: 'CS 302', batch: 'Sem 3 CSE A (Group 1)', faculty: 'DN / PJM' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'DP / RDM' },
       'ECE LAB 1': { course: 'EC 912', batch: 'MTech 1 ECE / MTech 1 DS&Comm', faculty: 'SR' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'DP / RDM' },
     },
-    // Slot 8 (04:00 - 05:00)
+    // Slot 8 (04:00 - 05:00 PM)
     7: {
       'CR 2': { course: 'EC 302', batch: 'Sem 3 ECE', faculty: 'SKS' },
       'CR 3': { course: 'CS 504', batch: 'Sem 5 CSE', faculty: 'KD' },
@@ -238,10 +243,10 @@ export const SCHEDULE = {
       'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'PG25CS03 / PG25CS06 / AD' },
       'CSE LAB 2': { course: 'CS 303', batch: 'Sem 3 CSE A (Group 2)', faculty: 'RN / PG25CS07' },
       'CSE LAB 3': { course: 'CS 302', batch: 'Sem 3 CSE A (Group 1)', faculty: 'DN / PJM' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'DP / RDM' },
       'ECE LAB 1': { course: 'HS 911', batch: 'MTech 1 ECE / MTech 1 CSE / MTech 1 DS&Comm', faculty: 'BP / ND' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'DP / RDM' },
     },
-    // Slot 9 (05:00 - 06:00)
+    // Slot 9 (05:00 - 06:00 PM)
     8: {
       'CR 1': { course: 'CS 305', batch: 'Sem 3 CSE A', faculty: 'TG' },
       'CR 6': { course: 'CS 301', batch: 'Sem 3 CSE B', faculty: 'MR' },
@@ -249,14 +254,13 @@ export const SCHEDULE = {
   },
 
   We: {
-    // Slot 1 (09:00 - 10:00)
+    // Slot 1 (09:00 - 10:00 AM)
     0: {
-      'CR 4': { course: 'CS 753', batch: 'Sem 7 CSE', faculty: 'AT' },
       'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 ECE A (Group 1)', faculty: 'PG25CS03 / PG25CS04 / NB' },
-      'CSE LAB 3': { course: 'CS 912', batch: 'MTech 1 CSE', faculty: 'TG / PG25CS11' },
+      'CSE LAB 3': { course: 'CS 912', batch: 'MTech 1 CSE', faculty: 'TG' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'NA / VAP' },
     },
-    // Slot 2 (10:00 - 11:00)
+    // Slot 2 (10:00 - 11:00 AM)
     1: {
       'CR 1': { course: 'CS 701', batch: 'Sem 7 CSE', faculty: 'RK' },
       'CR 2': { course: 'CS 501', batch: 'Sem 5 CSE', faculty: 'SA' },
@@ -265,10 +269,10 @@ export const SCHEDULE = {
       'CR 5': { course: 'CS 101', batch: 'Sem 1 CSE B', faculty: 'DR' },
       'CR 6': { course: 'CS 504', batch: 'Sem 5 ECE', faculty: 'KD' },
       'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 ECE A (Group 1)', faculty: 'PG25CS03 / PG25CS04 / NB' },
-      'CSE LAB 3': { course: 'CS 912', batch: 'MTech 1 CSE', faculty: 'TG / PG25CS11' },
+      'CSE LAB 3': { course: 'CS 912', batch: 'MTech 1 CSE', faculty: 'TG' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'NA / VAP' },
     },
-    // Slot 3 (11:00 - 12:00)
+    // Slot 3 (11:00 AM - 12:00 PM)
     2: {
       'CR 1': { course: 'CS 301', batch: 'Sem 3 CSE A', faculty: 'PJM' },
       'CR 2': { course: 'EC 102', batch: 'Sem 1 CSE D', faculty: 'SR' },
@@ -278,49 +282,49 @@ export const SCHEDULE = {
       'CR 6': { course: 'MS 101', batch: 'Sem 1 ECE A', faculty: 'APS' },
       'CSE LAB 1': { course: 'CS 502', batch: 'Sem 5 CSE (Group 1)', faculty: 'NB / PG25CS08' },
       'CSE LAB 2': { course: 'CS 503', batch: 'Sem 5 CSE (Group 2)', faculty: 'AD / RN / PG25CS04' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'SM / SVR' },
-      'ECE LAB 3': { course: 'EC 913 / EC 513', batch: 'Sem 5 ECE Div 2 / MTech 1 ECE', faculty: 'TD' },
       'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'ND / BP' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'SM / SVR' },
+      'ECE LAB 3': { course: 'EC 913 / EC 513', batch: 'MTech 1 ECE', faculty: 'TD' },
     },
-    // Slot 4 (12:00 - 01:00)
+    // Slot 4 (12:00 - 01:00 PM)
     3: {
       'CR 1': { course: 'CS 304', batch: 'Sem 3 CSE A', faculty: 'RRP' },
       'CR 2': { course: 'AS 102', batch: 'Sem 1 CSE D', faculty: 'PAS F2' },
-      'CR 3': { course: 'CS 753', batch: 'Sem 7 ECE', faculty: 'AT' },
-      'CR 5': { course: 'CS 305 & CS 913/CS 702', batch: 'Sem 3 CSE B / Sem 7 CSE / MTech 1 CSE', faculty: 'TG / SA' },
+      'CR 3': { course: 'CS 753', batch: 'Sem 7 ECE', faculty: 'SKS / RP' },
+      'CR 5': { course: 'CS 305', batch: 'Sem 3 CSE B', faculty: 'TG' },
       'CR 6': { course: 'CS 514', batch: 'Sem 5 ECE Div 1', faculty: 'SRS' },
       'CSE LAB 1': { course: 'CS 502', batch: 'Sem 5 CSE (Group 1)', faculty: 'NB / PG25CS08' },
       'CSE LAB 2': { course: 'CS 503', batch: 'Sem 5 CSE (Group 2)', faculty: 'AD / RN / PG25CS04' },
+      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'ND / BP' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'SM / SVR' },
       'ECE LAB 3': { course: 'EC 913 / EC 513', batch: 'Sem 5 ECE Div 2 / MTech 1 ECE', faculty: 'TD' },
-      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'ND / BP' },
     },
-    // Slot 5 (01:00 - 02:00)
+    // Slot 5 (01:00 - 02:00 PM)
     4: {
       'CR 1': { course: 'CS 303', batch: 'Sem 3 CSE A', faculty: 'RN' },
       'CR 2': { course: 'CS 9116 / CS 742', batch: 'Sem 7 ECE Div 1', faculty: 'PJM' },
-      'CR 3': { course: 'EC 102', batch: 'Sem 1 ECE A', faculty: 'SR' },
       'CR 4': { course: 'MS 101', batch: 'Sem 1 CSE C', faculty: 'VP' },
+      'CR 6': { course: 'EC 102', batch: 'Sem 1 ECE A', faculty: 'SR' },
       'CSE LAB 1': { course: 'CS 913 / CS 702', batch: 'Sem 7 CSE (Group 1) / MTech 1 CSE', faculty: 'PG25CS02 / DR' },
       'CSE LAB 2': { course: 'CS 701', batch: 'Sem 7 CSE (Group 2)', faculty: 'RK / RS25CS02' },
-      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 ECE (Group 2)', faculty: 'PG25CS01 / PS' },
+      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 ECE (Group 2)', faculty: 'PG25CS01 / PS / PG25CS06' },
       'ECE LAB 2': { course: 'EC 302', batch: 'Sem 3 ECE (Group 1)', faculty: 'NA / SKS / PG25EC03' },
     },
-    // Slot 6 (02:00 - 03:00)
+    // Slot 6 (02:00 - 03:00 PM)
     5: {
       'CR 1': { course: 'HS 301', batch: 'Sem 3 CSE B', faculty: 'HSS F3' },
       'CR 2': { course: 'HS 101', batch: 'Sem 1 CSE D', faculty: 'HSS F2' },
       'CR 3': { course: 'HM 505', batch: 'Sem 5 CSE', faculty: 'HSS F2' },
-      'CR 4': { course: 'MS 101', batch: 'Sem 1 CSE C', faculty: '4APS / VP / AP' },
+      'CR 4': { course: 'MS 101', batch: 'Sem 1 CSE C', faculty: 'APS / VP / AP' },
       'CR 5': { course: 'AS 102', batch: 'Sem 1 CSE B', faculty: 'PAS F2' },
       'CR 6': { course: 'AS 101', batch: 'Sem 1 ECE A', faculty: 'ND' },
       'CSE LAB 1': { course: 'CS 913 / CS 702', batch: 'Sem 7 CSE (Group 1) / MTech 1 CSE', faculty: 'PG25CS02 / DR' },
       'CSE LAB 2': { course: 'CS 701', batch: 'Sem 7 CSE (Group 2)', faculty: 'RK / RS25CS02' },
-      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 ECE (Group 2)', faculty: 'PG25CS01 / PS' },
-      'ECE LAB 2': { course: 'EC 302', batch: 'Sem 3 ECE (Group 1)', faculty: 'NA / SKS / PG25EC03' },
+      'CSE LAB 3': { course: 'CS 303', batch: 'Sem 3 ECE (Group 2)', faculty: 'PG25CS01 / PS / PG25CS06' },
       'ECE LAB 1': { course: 'ECD 911', batch: 'MTech 1 DS&Comm', faculty: 'SVR' },
+      'ECE LAB 2': { course: 'EC 302', batch: 'Sem 3 ECE (Group 1)', faculty: 'NA / SKS / PG25EC03' },
     },
-    // Slot 7 (03:00 - 04:00)
+    // Slot 7 (03:00 - 04:00 PM)
     6: {
       'CR 1': { course: 'CS 911', batch: 'MTech 1 CSE', faculty: 'PS' },
       'CR 2': { course: 'HS 301', batch: 'Sem 3 ECE', faculty: 'HSS F3' },
@@ -330,100 +334,99 @@ export const SCHEDULE = {
       'CR 6': { course: 'HM 505', batch: 'Sem 5 ECE', faculty: 'HSS F2' },
       'CSE LAB 1': { course: 'CS 304', batch: 'Sem 3 CSE B (Group 1)', faculty: 'RRP / PG25CS03 / TG' },
       'CSE LAB 3': { course: 'CS 302', batch: 'Sem 3 CSE B (Group 2)', faculty: 'DN / PG25CS11' },
+      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'KY' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'RDM / DP' },
       'ECE LAB 3': { course: 'EC 912', batch: 'MTech 1 ECE / MTech 1 DS&Comm', faculty: 'MR' },
-      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'KY' },
     },
-    // Slot 8 (04:00 - 05:00)
+    // Slot 8 (04:00 - 05:00 PM)
     7: {
       'CR 1': { course: 'HS 301', batch: 'Sem 3 CSE A', faculty: 'HSS F3' },
       'CR 2': { course: 'EC 303 / EC 9108', batch: 'Sem 3 ECE / MTech 1 DS&Comm', faculty: 'VAP' },
       'CR 3': { course: 'CS 504', batch: 'Sem 5 CSE', faculty: 'KD' },
       'CR 4': { course: 'EC 911', batch: 'MTech 1 ECE', faculty: 'TD' },
+      'CR 5': { course: 'CS 753', batch: 'Sem 7 CSE', faculty: 'RP / SKS' },
       'CR 6': { course: 'EC 503', batch: 'Sem 5 ECE', faculty: 'HG' },
       'CSE LAB 1': { course: 'CS 304', batch: 'Sem 3 CSE B (Group 1)', faculty: 'RRP / PG25CS03 / TG' },
       'CSE LAB 3': { course: 'CS 302', batch: 'Sem 3 CSE B (Group 2)', faculty: 'DN / PG25CS11' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'RDM / DP' },
       'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'KY' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'RDM / DP' },
     },
-    // Slot 9 (05:00 - 06:00)
+    // Slot 9 (05:00 - 06:00 PM)
     8: {
       'CR 1': { course: 'CS 302', batch: 'Sem 3 CSE A', faculty: 'DN' },
       'CR 2': { course: 'CS 303', batch: 'Sem 3 ECE', faculty: 'PS' },
       'CR 3': { course: 'CS 503', batch: 'Sem 5 CSE', faculty: 'AD' },
       'CR 5': { course: 'CS 303', batch: 'Sem 3 CSE B', faculty: 'RN' },
-      'CR 6': { course: 'EC 9103 / EC 502', batch: 'Sem 5 ECE / MTech 1 ECE', faculty: 'RDM' },
     },
   },
 
   Th: {
-    // Slot 1 (09:00 - 10:00)
+    // Slot 1 (09:00 - 10:00 AM)
     0: {
-      'CR 1': { course: 'CS 753', batch: 'Sem 7 ECE', faculty: 'AT' },
+      'CR 1': { course: 'CS 753', batch: 'Sem 7 ECE', faculty: 'SKS / RP' },
+      'CR 3': { course: 'CS 514', batch: 'Sem 5 ECE Div 1', faculty: 'SRS' },
       'CSE LAB 1': { course: 'CS 9116 / CS 742', batch: 'Sem 7 CSE (Group 2)', faculty: 'PJM / DN / PG25CS02' },
-      'CSE LAB 2': { course: 'CS 912', batch: 'MTech 1 CSE', faculty: 'TG / PG25CS11' },
+      'CSE LAB 2': { course: 'CS 912', batch: 'MTech 1 CSE', faculty: 'TG' },
+      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'ND' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 ECE A (Group 1)', faculty: 'NA / SM' },
       'ECE LAB 3': { course: 'EC 913 / EC 513', batch: 'Sem 5 ECE Div 2 / MTech 1 ECE', faculty: 'TD' },
-      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'ND' },
     },
-    // Slot 2 (10:00 - 11:00)
+    // Slot 2 (10:00 - 11:00 AM)
     1: {
-      'CR 1': { course: 'EC 702', batch: 'Sem 7 ECE', faculty: 'RP' },
+      'CR 2': { course: 'EC 702', batch: 'Sem 7 ECE', faculty: 'RP' },
       'CR 3': { course: 'CS 514', batch: 'Sem 5 ECE Div 1', faculty: 'SRS' },
       'CR 4': { course: 'EC 102', batch: 'Sem 1 CSE C', faculty: 'SR' },
       'CR 6': { course: 'AS 101', batch: 'Sem 1 CSE B', faculty: 'BP' },
       'CSE LAB 1': { course: 'CS 9116 / CS 742', batch: 'Sem 7 CSE (Group 2)', faculty: 'PJM / DN / PG25CS02' },
-      'CSE LAB 2': { course: 'CS 912', batch: 'MTech 1 CSE', faculty: 'TG / PG25CS11' },
+      'CSE LAB 2': { course: 'CS 912', batch: 'MTech 1 CSE', faculty: 'TG' },
+      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'ND' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 ECE A (Group 1)', faculty: 'NA / SM' },
       'ECE LAB 3': { course: 'EC 913 / EC 513', batch: 'Sem 5 ECE Div 2 / MTech 1 ECE', faculty: 'TD' },
-      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'ND' },
     },
-    // Slot 3 (11:00 - 12:00)
+    // Slot 3 (11:00 AM - 12:00 PM)
     2: {
-      'CR 1': { course: 'CS 753', batch: 'Sem 7 CSE', faculty: 'AT' },
+      'CR 1': { course: 'CS 9116 / CS 742', batch: 'Sem 7 ECE Div 1', faculty: 'PJM' },
       'CR 2': { course: 'CS 303', batch: 'Sem 3 ECE', faculty: 'PS' },
       'CR 3': { course: 'EC 102', batch: 'Sem 1 CSE D', faculty: 'DP' },
       'CR 4': { course: 'AS 101', batch: 'Sem 1 CSE C', faculty: 'KY' },
-      'CR 5': { course: 'CS 701', batch: 'Sem 7 ECE', faculty: 'RK' },
+      'CR 5': { course: 'CS 701', batch: 'Sem 7 CSE', faculty: 'RK' },
       'CR 6': { course: 'EC 102', batch: 'Sem 1 ECE A', faculty: 'NA' },
-      'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'DR / NB / PG25CS04' },
+      'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'NB / PG25CS04 / PG25CS11' },
       'CSE LAB 2': { course: 'CS 501', batch: 'Sem 5 CSE (Group 2)', faculty: 'AD / PG25CS06' },
       'CSE LAB 3': { course: 'CS 504', batch: 'Sem 5 CSE (Group 1)', faculty: 'SR / KD / PG25CS08' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'RP / HG' },
       'ECE LAB 3': { course: 'ECD 913', batch: 'MTech 1 DS&Comm', faculty: 'SVR' },
-      'ECE LAB 1': { course: 'EC 9103 / EC 502', batch: 'Sem 5 ECE / MTech 1 ECE', faculty: 'RDM' },
     },
-    // Slot 4 (12:00 - 01:00)
+    // Slot 4 (12:00 - 01:00 PM)
     3: {
       'CR 1': { course: 'CS 304', batch: 'Sem 3 CSE A', faculty: 'RRP' },
       'CR 2': { course: 'CS 301', batch: 'Sem 3 ECE', faculty: 'MR' },
       'CR 3': { course: 'MS 101', batch: 'Sem 1 CSE D', faculty: 'VP' },
-      'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'DR / NB / PG25CS04' },
+      'CR 4': { course: 'EC 9103 / EC 502', batch: 'Sem 5 ECE / MTech 1 ECE', faculty: 'RDM' },
+      'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE B (Group 2)', faculty: 'NB / PG25CS04 / PG25CS11' },
       'CSE LAB 2': { course: 'CS 501', batch: 'Sem 5 CSE (Group 2)', faculty: 'AD / PG25CS06' },
       'CSE LAB 3': { course: 'CS 504', batch: 'Sem 5 CSE (Group 1)', faculty: 'SR / KD / PG25CS08' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE B (Group 1)', faculty: 'RP / HG' },
       'ECE LAB 3': { course: 'ECD 913', batch: 'MTech 1 DS&Comm', faculty: 'SVR' },
-      'ECE LAB 1': { course: 'EC 9103 / EC 502', batch: 'Sem 5 ECE / MTech 1 ECE', faculty: 'RDM' },
     },
-    // Slot 5 (01:00 - 02:00)
+    // Slot 5 (01:00 - 02:00 PM)
     4: {
       'CR 1': { course: 'CS 305', batch: 'Sem 3 CSE A', faculty: 'TG' },
-      'CR 2': { course: 'CS 9116 / CS 742', batch: 'Sem 7 ECE Div 1', faculty: 'PJM' },
+      'CR 2': { course: 'CS 701', batch: 'Sem 7 ECE', faculty: 'RK' },
       'CR 3': { course: 'CS 302', batch: 'Sem 3 CSE B', faculty: 'DN' },
-      'CR 5': { course: 'CS 701', batch: 'Sem 7 CSE', faculty: 'RK' },
+      'CR 4': { course: 'EC 501', batch: 'Sem 5 ECE', faculty: 'SM' },
       'CR 6': { course: 'MS 101', batch: 'Sem 1 ECE A', faculty: 'APS' },
       'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'DR / PG25CS07 / PG25CS01' },
       'CSE LAB 2': { course: 'CS 502', batch: 'Sem 5 CSE (Group 2)', faculty: 'NB / PG25CS08' },
       'CSE LAB 3': { course: 'CS 503', batch: 'Sem 5 CSE (Group 1)', faculty: 'AD / RN / PG25CS04' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE C (Group 2)', faculty: 'VAP / DP' },
       'ECE LAB 1': { course: 'HS 911', batch: 'MTech 1 ECE / MTech 1 CSE / MTech 1 DS&Comm', faculty: 'BP / ND' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE C (Group 2)', faculty: 'VAP / DP' },
     },
-    // Slot 6 (02:00 - 03:00)
+    // Slot 6 (02:00 - 03:00 PM)
     5: {
-      'CR 1': { course: 'CS 9106 / EC 761', batch: 'Sem 7 ECE Div 3 / Sem 7 CSE Div 3 / MTech 1 CSE', faculty: 'LC' },
       'CR 2': { course: 'EC 302', batch: 'Sem 3 ECE', faculty: 'SKS' },
       'CR 3': { course: 'AS 102', batch: 'Sem 1 CSE D', faculty: 'PAS F2' },
-      'CR 4': { course: 'EC 501', batch: 'Sem 5 ECE', faculty: 'SM' },
+      'CR 4': { course: 'CS 504', batch: 'Sem 5 ECE', faculty: 'KD' },
       'CR 5': { course: 'HS 101', batch: 'Sem 1 CSE B', faculty: 'HSS F2' },
       'CR 6': { course: 'AS 101', batch: 'Sem 1 ECE A', faculty: 'ND' },
       'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'DR / PG25CS07 / PG25CS01' },
@@ -431,18 +434,18 @@ export const SCHEDULE = {
       'CSE LAB 3': { course: 'CS 503', batch: 'Sem 5 CSE (Group 1)', faculty: 'AD / RN / PG25CS04' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE C (Group 2)', faculty: 'VAP / DP' },
     },
-    // Slot 7 (03:00 - 04:00)
+    // Slot 7 (03:00 - 04:00 PM)
     6: {
       'CR 2': { course: 'CS 301', batch: 'Sem 3 CSE B', faculty: 'MR' },
       'CR 3': { course: 'HS 101', batch: 'Sem 1 CSE D', faculty: 'HSS F2' },
-      'CR 4': { course: 'CS 504', batch: 'Sem 5 ECE', faculty: 'KD' },
+      'CR 4': { course: 'MS 101', batch: 'Sem 1 CSE C', faculty: 'VP' },
       'CR 5': { course: 'AS 102', batch: 'Sem 1 CSE B', faculty: 'PAS F2' },
       'CSE LAB 1': { course: 'CS 304', batch: 'Sem 3 CSE A (Group 1)', faculty: 'RRP / TG / PG25CS11' },
       'CSE LAB 2': { course: 'CS 302', batch: 'Sem 3 CSE A (Group 2)', faculty: 'DN / PJM' },
       'ECE LAB 2': { course: 'EC 301', batch: 'Sem 3 ECE (Group 2)', faculty: 'SVR / LC' },
       'ECE LAB 3': { course: 'EC 303 / EC 9108', batch: 'Sem 3 ECE (Group 1) / MTech 1 DS&Comm', faculty: 'SRS / VAP / PG25EC01' },
     },
-    // Slot 8 (04:00 - 05:00)
+    // Slot 8 (04:00 - 05:00 PM)
     7: {
       'CR 2': { course: 'CS 303', batch: 'Sem 3 CSE B', faculty: 'RN' },
       'CR 3': { course: 'CS 101', batch: 'Sem 1 CSE D', faculty: 'AD' },
@@ -452,30 +455,29 @@ export const SCHEDULE = {
       'ECE LAB 2': { course: 'EC 301', batch: 'Sem 3 ECE (Group 2)', faculty: 'SVR / LC' },
       'ECE LAB 3': { course: 'EC 303 / EC 9108', batch: 'Sem 3 ECE (Group 1) / MTech 1 DS&Comm', faculty: 'SRS / VAP / PG25EC01' },
     },
-    // Slot 9 (05:00 - 06:00)
+    // Slot 9 (05:00 - 06:00 PM)
     8: {},
   },
 
   Fr: {
-    // Slot 1 (09:00 - 10:00)
+    // Slot 1 (09:00 - 10:00 AM)
     0: {
       'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'PG25CS03 / PG25CS04 / NB' },
-      'CSE LAB 2': { course: 'EC 503', batch: 'Sem 5 ECE (Group 1)', faculty: 'HG / RP' },
       'CSE LAB 3': { course: 'CS 504', batch: 'Sem 5 ECE (Group 2)', faculty: 'SR / KD / PG25CS08' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 ECE A (Group 1)', faculty: 'TD / VAP' },
+      'ECE LAB 3': { course: 'EC 503', batch: 'Sem 5 ECE (Group 1)', faculty: 'HG / RP' },
     },
-    // Slot 2 (10:00 - 11:00)
+    // Slot 2 (10:00 - 11:00 AM)
     1: {
-      'CR 1': { course: 'CS 753', batch: 'Sem 7 CSE', faculty: 'AT' },
-      'CR 2': { course: 'CS 701', batch: 'Sem 7 ECE', faculty: 'RK' },
+      'CR 1': { course: 'CS 9106 / EC 761', batch: 'Sem 7 ECE Div 3 / Sem 7 CSE Div 3 / MTech 1 CSE', faculty: 'LC' },
       'CR 4': { course: 'CS 101', batch: 'Sem 1 CSE C', faculty: 'DR' },
       'CR 5': { course: 'MS 101', batch: 'Sem 1 CSE B', faculty: 'AP' },
       'CSE LAB 1': { course: 'CS 101', batch: 'Sem 1 ECE A (Group 2)', faculty: 'PG25CS03 / PG25CS04 / NB' },
-      'CSE LAB 2': { course: 'EC 503', batch: 'Sem 5 ECE (Group 1)', faculty: 'HG / RP' },
       'CSE LAB 3': { course: 'CS 504', batch: 'Sem 5 ECE (Group 2)', faculty: 'SR / KD / PG25CS08' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 ECE A (Group 1)', faculty: 'TD / VAP' },
+      'ECE LAB 3': { course: 'EC 503', batch: 'Sem 5 ECE (Group 1)', faculty: 'HG / RP' },
     },
-    // Slot 3 (11:00 - 12:00)
+    // Slot 3 (11:00 AM - 12:00 PM)
     2: {
       'CR 1': { course: 'CS 911', batch: 'MTech 1 CSE', faculty: 'PS' },
       'CR 2': { course: 'EC 501', batch: 'Sem 5 ECE', faculty: 'SM' },
@@ -486,73 +488,76 @@ export const SCHEDULE = {
       'CSE LAB 1': { course: 'CS 913 / CS 702', batch: 'Sem 7 CSE (Group 2)', faculty: 'PG25CS02 / DR' },
       'CSE LAB 2': { course: 'CS 9116 / CS 742', batch: 'Sem 7 ECE Div 1', faculty: 'PJM / TG' },
       'CSE LAB 3': { course: 'CS 701', batch: 'Sem 7 CSE (Group 1)', faculty: 'RK / RS25CS02 / PG25CS01' },
+      'ECE LAB 1': { course: 'EC 911', batch: 'MTech 1 ECE', faculty: 'TD' },
       'ECE LAB 2': { course: 'EC 302', batch: 'Sem 3 ECE (Group 2)', faculty: 'NA / SKS / PG25EC03' },
       'ECE LAB 3': { course: 'EC 301', batch: 'Sem 3 ECE (Group 1)', faculty: 'SVR / LC' },
-      'ECE LAB 1': { course: 'EC 911', batch: 'MTech 1 ECE', faculty: 'TD' },
     },
-    // Slot 4 (12:00 - 01:00)
+    // Slot 4 (12:00 - 01:00 PM)
     3: {
-      'CR 1': { course: 'CS 514', batch: 'Sem 5 CSE', faculty: 'SRS' },
       'CR 2': { course: 'CS 304', batch: 'Sem 3 CSE B', faculty: 'RRP' },
       'CR 3': { course: 'AS 101', batch: 'Sem 1 CSE D', faculty: 'ND / KY / BP' },
-      'CR 5': { course: 'MS 101', batch: 'Sem 1 CSE B', faculty: 'AP' },
+      'CR 4': { course: 'CS 514', batch: 'Sem 5 CSE', faculty: 'SRS' },
+      'CR 5': { course: 'MS 101', batch: 'Sem 1 CSE B', faculty: 'APS / VP / AP' },
       'CSE LAB 1': { course: 'CS 913 / CS 702', batch: 'Sem 7 CSE (Group 2)', faculty: 'PG25CS02 / DR' },
       'CSE LAB 2': { course: 'CS 9116 / CS 742', batch: 'Sem 7 ECE Div 1', faculty: 'PJM / TG' },
       'CSE LAB 3': { course: 'CS 701', batch: 'Sem 7 CSE (Group 1)', faculty: 'RK / RS25CS02 / PG25CS01' },
       'ECE LAB 2': { course: 'EC 302', batch: 'Sem 3 ECE (Group 2)', faculty: 'NA / SKS / PG25EC03' },
       'ECE LAB 3': { course: 'EC 301', batch: 'Sem 3 ECE (Group 1)', faculty: 'SVR / LC' },
     },
-    // Slot 5 (01:00 - 02:00)
+    // Slot 5 (01:00 - 02:00 PM)
     4: {
       'CR 1': { course: 'CS 301', batch: 'Sem 3 CSE A', faculty: 'PJM' },
       'CR 2': { course: 'CS 9117 / CS 743', batch: 'Sem 7 ECE Div 2 / Sem 7 CSE / MTech 1 CSE', faculty: 'PS' },
-      'CR 3': { course: 'EC 9111', batch: 'MTech 1 ECE / MTech 1 DS&Comm', faculty: 'SM' },
+      'CR 3': { course: 'EC 503', batch: 'Sem 5 ECE', faculty: 'HG' },
       'CR 4': { course: 'CS 502', batch: 'Sem 5 CSE', faculty: 'NB' },
-      'CR 5': { course: 'EC 503', batch: 'Sem 5 ECE', faculty: 'HG' },
       'CR 6': { course: 'AS 101', batch: 'Sem 1 ECE A', faculty: 'ND' },
       'CSE LAB 1': { course: 'CS 302', batch: 'Sem 3 CSE B (Group 1)', faculty: 'DN / PG25CS11' },
-      'CSE LAB 2': { course: 'CS 303', batch: 'Sem 3 CSE B (Group 2)', faculty: 'RN / PG25CS07 / PG25CS06' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'DP / RDM' },
+      'CSE LAB 2': { course: 'CS 303', batch: 'Sem 3 CSE B (Group 2)', faculty: 'RN / PG25CS07' },
       'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE C (Group 2)', faculty: 'KY' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'DP / RDM' },
+      'ECE LAB 3': { course: 'EC 9111', batch: 'MTech 1 ECE / MTech 1 DS&Comm', faculty: 'SM' },
     },
-    // Slot 6 (02:00 - 03:00)
+    // Slot 6 (02:00 - 03:00 PM)
     5: {
       'CR 2': { course: 'CS 301', batch: 'Sem 3 ECE', faculty: 'MR' },
       'CR 3': { course: 'CS 514', batch: 'Sem 5 ECE Div 1', faculty: 'SRS' },
-      'CR 4': { course: 'MS 101', batch: 'Sem 1 CSE D', faculty: 'AP' },
+      'CR 4': { course: 'MS 101', batch: 'Sem 1 CSE D', faculty: 'VP' },
       'CR 5': { course: 'AS 101', batch: 'Sem 1 CSE B', faculty: 'BP' },
       'CR 6': { course: 'EC 102', batch: 'Sem 1 ECE A', faculty: 'NA' },
       'CSE LAB 1': { course: 'CS 302', batch: 'Sem 3 CSE B (Group 1)', faculty: 'DN / PG25CS11' },
-      'CSE LAB 2': { course: 'CS 303', batch: 'Sem 3 CSE B (Group 2)', faculty: 'RN / PG25CS07 / PG25CS06' },
+      'CSE LAB 2': { course: 'CS 303', batch: 'Sem 3 CSE B (Group 2)', faculty: 'RN / PG25CS07' },
+      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE C (Group 2)', faculty: 'KY' },
       'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE C (Group 1)', faculty: 'DP / RDM' },
       'ECE LAB 3': { course: 'EC 9111', batch: 'MTech 1 ECE / MTech 1 DS&Comm', faculty: 'SM' },
-      'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE C (Group 2)', faculty: 'KY' },
     },
-    // Slot 7 (03:00 - 04:00)
+    // Slot 7 (03:00 - 04:00 PM)
     6: {
       'CR 1': { course: 'CS 503', batch: 'Sem 5 CSE', faculty: 'AD' },
       'CR 2': { course: 'CS 303', batch: 'Sem 3 ECE', faculty: 'PS' },
+      'CR 3': { course: 'EC 9103 / EC 502', batch: 'Sem 5 ECE / MTech 1 ECE', faculty: 'RDM' },
       'CR 4': { course: 'MS 101', batch: 'Sem 1 CSE C', faculty: 'VP' },
       'CR 5': { course: 'CS 101', batch: 'Sem 1 CSE B', faculty: 'DR' },
+      'CR 6': { course: 'CS 753', batch: 'Sem 7 CSE', faculty: 'RP / SKS' },
       'CSE LAB 1': { course: 'CS 304', batch: 'Sem 3 CSE A (Group 2)', faculty: 'RRP / TG / PG25CS11' },
       'CSE LAB 2': { course: 'CS 303', batch: 'Sem 3 CSE A (Group 1)', faculty: 'RN / PG25CS07' },
       'CSE LAB 3': { course: 'CS 701', batch: 'Sem 7 ECE (Group 2)', faculty: 'RK / RS25CS02 / PG25CS01' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'AT / SKS' },
       'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'KY / BP' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'HG / SVR' },
     },
-    // Slot 8 (04:00 - 05:00)
+    // Slot 8 (04:00 - 05:00 PM)
     7: {
-      'CR 3': { course: 'CS 504', batch: 'Sem 5 CSE', faculty: 'KD' },
+      'CR 1': { course: 'CS 504', batch: 'Sem 5 CSE', faculty: 'KD' },
       'CR 6': { course: 'CS 301', batch: 'Sem 3 CSE B', faculty: 'MR' },
       'CSE LAB 1': { course: 'CS 304', batch: 'Sem 3 CSE A (Group 2)', faculty: 'RRP / TG / PG25CS11' },
       'CSE LAB 2': { course: 'CS 303', batch: 'Sem 3 CSE A (Group 1)', faculty: 'RN / PG25CS07' },
       'CSE LAB 3': { course: 'CS 701', batch: 'Sem 7 ECE (Group 2)', faculty: 'RK / RS25CS02 / PG25CS01' },
-      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'AT / SKS' },
       'ECE LAB 1': { course: 'AS 101', batch: 'Sem 1 CSE D (Group 2)', faculty: 'KY / BP' },
+      'ECE LAB 2': { course: 'EC 101', batch: 'Sem 1 CSE D (Group 1)', faculty: 'HG / SVR' },
     },
-    // Slot 9 (05:00 - 06:00)
+    // Slot 9 (05:00 - 06:00 PM)
     8: {},
   },
+
 };
 
 /**
@@ -563,7 +568,7 @@ export function getRoomOccupancy(dayKey, slotIndex) {
   const slotOccupancy = daySchedule[slotIndex] || {};
 
   return ALL_ROOMS.map(room => {
-    const occ = slotOccupancy[room.id] || slotOccupancy[room.code];
+    const occ = slotOccupancy[room.id] || slotOccupancy[room.code] || (room.id === 'ECE LAB 1' ? slotOccupancy['PHY LAB 1'] : null);
     return {
       ...room,
       isFree: !occ,
@@ -579,7 +584,7 @@ export function getRoomWeeklySchedule(roomId) {
   const result = {};
   DAYS.forEach(day => {
     result[day.key] = TIME_SLOTS.map((slot, idx) => {
-      const occ = SCHEDULE[day.key]?.[idx]?.[roomId];
+      const occ = SCHEDULE[day.key]?.[idx]?.[roomId] || (roomId === 'ECE LAB 1' ? SCHEDULE[day.key]?.[idx]?.['PHY LAB 1'] : null);
       return {
         slot,
         isFree: !occ,
